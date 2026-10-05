@@ -14,3 +14,5 @@
 | Google Cloud Platform | Compute/networking/storage | Intermediate | 3 | ★★★☆☆ (3/5)  |
 | Sonarqube/Semgrep | Security SAST/SCA scanners - DevSecOps | Intermediate | 3 | ★★★☆☆ (3/5)  |
 | CI CD Tools - Octopus Deploy / Argo CD  | DevOps | Intermediate | 3 | ★★★☆☆ (3/5)  |
+| Linux - Debian\RedHat based | OS Familiarity | Intermediate | 3 | ★★★☆☆ (3/5)  |
+| On-Prem to Cloud Migration / Cloud-to-Cloud Migration | Cloud Migration | 8 | ★★★★☆ (4/5) |
