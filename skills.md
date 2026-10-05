@@ -1,6 +1,6 @@
 # Skills Inventory
 
-| Skill/Tool | Area | Level | Years | Stars Rating |
+| Skill/Tool | Area | Level | Years of Exp | Stars Rating |
 | :--- | :--- | :--- | :--- | :--- |
 | Azure Cloud Platform - Compute/networking/storage | Cloud Engineering | Expert | 8 | ★★★★☆ (4/5) |
 | AWS Cloud Platform - Compute/networking/storage | Cloud Engineering | Expert | 6 | ★★★★☆ (4/5) |
