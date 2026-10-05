@@ -1,7 +1,5 @@
 # Skills Inventory
 
-Here is the tabular data representing various professional skills, categorized by area, proficiency level, years of experience, and a star rating.
-
 | Skill/Tool | Area | Level | Years | Stars Rating |
 | :--- | :--- | :--- | :--- | :--- |
 | Azure Cloud Platform - Compute/networking/storage | Cloud Engineering | Expert | 8 | ★★★★☆ (4/5) |
