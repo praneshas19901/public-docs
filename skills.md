@@ -17,3 +17,4 @@
 | CI CD Tools - Git / Jenkins /Octopus Deploy / Argo CD  | DevOps | Expert | 4 | ★★★★☆ (4/5)  |
 | Linux - Debian\RedHat based | OS Familiarity | Intermediate | 5 | ★★★☆☆ (3/5)  |
 | On-Prem to Cloud Migration / Cloud-to-Cloud Migration | Cloud Migration | Expert | 8 | ★★★★☆ (4/5) |
+| Splunk, Datadog, ELK stack / Elastic Cloud, Grafana , Prometheus, New Relic | Log Analysis and Monitoring Tools | Expert | 6 | ★★★★☆ (4/5) |
