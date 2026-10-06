@@ -7,7 +7,7 @@
 | Azure DevOps | CI CD and DevOps/DevSecOps | Expert | 6 | ★★★★☆ (4/5) |
 | Gitlab | CI CD and DevOps/DevSecOps | Expert | 6 | ★★★★☆ (4/5) |
 | Vercel \ Netlify | SaaS App Hosting | Expert | 6 | ★★★★☆ (4/5) |
-| Azure Kubernetes \ AWS Kubernetes | Kubernetes Orchestration- Admin and Security |  Expert | 6 | ★★★★☆ (4/5) |
+| Azure Kubernetes \ AWS Kubernetes \ Self- Managed Kubernetes | Kubernetes Orchestration- Admin and Security |  Expert | 6 | ★★★★☆ (4/5) |
 | Powershell/Bash Scripting | DevOps | Expert | 8 |  ★★★★☆ (4/5) |
 | Terraform | DevOps | Expert | 8 |  ★★★★☆ (4/5) |
 | YAML Scripting and Templates for Infrastructure as Code | DevOps | Expert | 8 |  ★★★★☆ (4/5) |
