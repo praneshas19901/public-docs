@@ -14,7 +14,7 @@
 | Docker | Containers and Orchestration | Expert | 6 | ★★★★☆ (4/5)  |
 | MSSQL , PostgreSQL , MySQL , NoSQL , Azure Cosmos DB , AWS Aurora DB , Redis | Database | Intermediate | 5 | ★★★☆☆ (3/5)  |
 | Nginx , IIS , Apache , Node.js, Caddy , Cloudflare server  | Web Servers | Expert | 4 | ★★★★☆ (4/5)  | 
-| Google Cloud Platform | Compute/networking/storage | Intermediate | 3 | ★★★☆☆ (3/5)  |
+| Google Cloud Platform - Compute/networking/storage | Cloud Engineering | Intermediate | 3 | ★★★☆☆ (3/5)  |
 | Sonarqube/Semgrep | Security SAST/SCA scanners - DevSecOps | Intermediate | 3 | ★★★☆☆ (3/5)  |
 | CI CD Tools - Git / Jenkins /Octopus Deploy / Argo CD  | DevOps | Expert | 4 | ★★★★☆ (4/5)  |
 | Linux - Debian\RedHat based | OS Familiarity | Intermediate | 5 | ★★★☆☆ (3/5)  |
