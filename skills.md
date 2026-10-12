@@ -21,4 +21,4 @@
 | On-Prem to Cloud Migration / Cloud-to-Cloud Migration | Cloud Migration | Expert | 8 | ★★★★☆ (4/5) |
 | Splunk, Datadog, ELK stack / Elastic Cloud, Grafana , Prometheus, New Relic | Log Analysis and Monitoring Tools | Expert | 6 | ★★★★☆ (4/5) |
 | Cloudflare / any WAF | Web Application Firewall (WAF) | Expert | 8 | ★★★★☆ (4/5) |
-| Claude Sonnet 5.5, Claude Opus 5.5, Gemini 3.1 Pro, Gemini 3.5 Flash-Lite, Gemini 3.8 Flash, M365 copilot, GPT 5.6 Sol | AI agents\models - Prompt Engineering - Iterative prompt refinement | Intermediate | 1 | ★★★☆☆ (3/5)  |
+| Claude Sonnet 5.5, Claude Opus 5.5, Gemini 3.1 Pro, Gemini 3.5 Flash-Lite, Gemini 3.8 Flash, M365 copilot, GPT 5.6 Sol, DeepSeek-V4.1-Flash, DeepSeek-V4-Pro, DeepSeek-R1| AI agents\models - Prompt Engineering - Iterative prompt refinement | Intermediate | 1 | ★★★☆☆ (3/5)  |
