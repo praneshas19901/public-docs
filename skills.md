@@ -1,4 +1,4 @@
-| Skill / Tool | Domain | Level, Experience & Rating |
+| Skill / Tool | Domain | Level, Experience & Rating(Self) |
 | :--- | :--- | :--- |
 | **Azure Cloud Platform** (Compute/Networking/Storage) | Cloud Eng | Expert • 8 yrs • ★★★★☆ |
 | **AWS Cloud Platform** (Compute/Networking/Storage) | Cloud Eng | Expert • 6 yrs • ★★★★☆ |
