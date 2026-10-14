@@ -1,25 +1,36 @@
-# Skills Inventory
+# Technical Skills & Expertise Profile
 
-| Skill/Tool | Area | Level | Years of Exp | Stars Rating |
-| :--- | :--- | :--- | :--- | :--- |
-| Azure Cloud Platform - Compute/networking/storage | Cloud Engineering | Expert | 8 | ★★★★☆ (4/5) |
-| AWS Cloud Platform - Compute/networking/storage | Cloud Engineering | Expert | 6 | ★★★★☆ (4/5) |
-| Azure DevOps | CI CD and DevOps/DevSecOps | Expert | 6 | ★★★★☆ (4/5) |
-| Gitlab | CI CD and DevOps/DevSecOps | Expert | 6 | ★★★★☆ (4/5) |
-| Vercel \ Netlify | SaaS App Hosting | Expert | 6 | ★★★★☆ (4/5) |
-| Azure Kubernetes \ AWS Kubernetes \ Self- Managed Kubernetes | Kubernetes Orchestration- Admin and Security |  Expert | 6 | ★★★★☆ (4/5) |
-| Powershell/Bash Scripting | DevOps | Expert | 8 |  ★★★★☆ (4/5) |
-| Terraform | DevOps | Expert | 8 |  ★★★★☆ (4/5) |
-| YAML Scripting and Templates for Infrastructure as Code | DevOps | Expert | 8 |  ★★★★☆ (4/5) |
-| Docker | Containers and Orchestration | Expert | 6 | ★★★★☆ (4/5)  |
-| MSSQL , PostgreSQL , MySQL , NoSQL , Azure Cosmos DB , AWS Aurora DB , Redis | Database | Intermediate | 5 | ★★★☆☆ (3/5)  |
-| Nginx , IIS , Apache , Node.js, Caddy , Cloudflare server  | Web Servers | Expert | 4 | ★★★★☆ (4/5)  | 
-| Google Cloud Platform - Compute/networking/storage | Cloud Engineering | Intermediate | 3 | ★★★☆☆ (3/5)  |
-| Sonarqube/Semgrep | Security SAST/SCA scanners - DevSecOps | Intermediate | 3 | ★★★☆☆ (3/5)  |
-| CI CD Tools - Git / Jenkins /Octopus Deploy / Argo CD  | DevOps | Expert | 4 | ★★★★☆ (4/5)  |
-| Linux - Debian\RedHat based | OS Familiarity | Intermediate | 5 | ★★★☆☆ (3/5)  |
-| On-Prem to Cloud Migration / Cloud-to-Cloud Migration | Cloud Migration | Expert | 8 | ★★★★☆ (4/5) |
-| Splunk, Datadog, ELK stack / Elastic Cloud, Grafana , Prometheus, New Relic | Log Analysis and Monitoring Tools | Expert | 6 | ★★★★☆ (4/5) |
-| Cloudflare / any WAF | Web Application Firewall (WAF) | Expert | 8 | ★★★★☆ (4/5) |
-| Claude Sonnet 5.5, Claude Opus 5.5, Gemini 3.1 Pro, Gemini 3.5 Flash-Lite, Gemini 3.8 Flash, M365 copilot, GPT 5.6 Sol, DeepSeek-V4.1-Flash, DeepSeek-V4-Pro, DeepSeek-R1| AI agents\models - Prompt Engineering - Iterative prompt refinement | Intermediate | 1 | ★★★☆☆ (3/5)  |
-| Grafana K6 , Apache JMeter | Load Testing Tools - Performance Bottleneck Tests | Expert | 4 | ★★★★☆ (4/5) |
+### ☁️ Cloud & Infrastructure
+| Skill / Tool | Domain | Level | Yrs | Rating |
+| :--- | :--- | :---: | :---: | :---: |
+| **Azure** (Compute, Network, Storage) | Cloud Engineering | Expert | 8 | ★★★★☆ |
+| **AWS** (Compute, Network, Storage) | Cloud Engineering | Expert | 6 | ★★★★☆ |
+| **GCP** (Compute, Network, Storage) | Cloud Engineering | Intermediate | 3 | ★★★☆☆ |
+| **Cloud Migration** | On-Prem/Cloud-to-Cloud | Expert | 8 | ★★★★☆ |
+| **Linux** (Debian / RedHat) | OS Administration | Intermediate | 5 | ★★★☆☆ |
+
+### ⚙️ DevOps, IaC & Orchestration
+| Skill / Tool | Domain | Level | Yrs | Rating |
+| :--- | :--- | :---: | :---: | :---: |
+| **Terraform & YAML** | Infrastructure as Code | Expert | 8 | ★★★★☆ |
+| **PowerShell & Bash** | Scripting & Automation | Expert | 8 | ★★★★☆ |
+| **Kubernetes** (AKS, EKS, Self-Managed) | K8s Admin & Security | Expert | 6 | ★★★★☆ |
+| **Docker** | Containerization | Expert | 6 | ★★★★☆ |
+| **Azure DevOps & GitLab** | CI/CD & DevSecOps | Expert | 6 | ★★★★☆ |
+| **Jenkins, Argo CD, Octopus, Git** | CI/CD Pipelines | Expert | 4 | ★★★★☆ |
+
+### 🛡️ Web Infrastructure, WAF & Monitoring
+| Skill / Tool | Domain | Level | Yrs | Rating |
+| :--- | :--- | :---: | :---: | :---: |
+| **Cloudflare & WAF** | Web App Security | Expert | 8 | ★★★★☆ |
+| **Splunk, Datadog, ELK, Grafana, Prometheus** | Log & Observability | Expert | 6 | ★★★★☆ |
+| **Vercel & Netlify** | SaaS Hosting | Expert | 6 | ★★★★☆ |
+| **Nginx, IIS, Apache, Node.js, Caddy** | Web Servers | Expert | 4 | ★★★★☆ |
+| **Grafana K6 & Apache JMeter** | Load & Performance | Expert | 4 | ★★★★☆ |
+| **SonarQube & Semgrep** | SAST/SCA Scanning | Intermediate | 3 | ★★★☆☆ |
+
+### 💾 Databases & AI Engineering
+| Skill / Tool | Domain | Level | Yrs | Rating |
+| :--- | :--- | :---: | :---: | :---: |
+| **PostgreSQL, MySQL, MSSQL, Aurora, Cosmos, Redis** | Relational & NoSQL | Intermediate | 5 | ★★★☆☆ |
+| **AI LLM Engineering** (Claude, Gemini, GPT, DeepSeek) | Prompt Engineering | Intermediate | 1 | ★★★☆☆ |
