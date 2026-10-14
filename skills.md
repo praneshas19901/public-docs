@@ -36,5 +36,5 @@
 | Skill/Tool | Area | Level | Years of Exp | Stars Rating |
 | :--- | :--- | :--- | :--- | :--- |
 | MSSQL , PostgreSQL , MySQL , NoSQL , Azure Cosmos DB , AWS Aurora DB , Redis | Database | Intermediate | 5 | ★★★☆☆ (3/5) |
-| Linux - Debian\RedHat based | OS Familiarity | Intermediate | 5 | ★★★☆☆ (3/5) |
+| Linux - Debian\RedHat based , Windows (Client and Server) 2016+ | OS Familiarity | Intermediate | 5 | ★★★☆☆ (3/5) |
 | Claude Sonnet 5.5, Claude Opus 5.5, Gemini 3.1 Pro, Gemini 3.5 Flash-Lite, Gemini 3.8 Flash, M365 copilot, GPT 5.6 Sol, DeepSeek-V4.1-Flash, DeepSeek-V4-Pro, DeepSeek-R1 | AI agents\models - Prompt Engineering - Iterative prompt refinement | Intermediate | 1 | ★★★☆☆ (3/5) |
