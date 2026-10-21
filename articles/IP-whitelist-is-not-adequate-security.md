@@ -775,6 +775,6 @@ This is the lightest architectural change that addresses both the WAF block and 
 
 ## Author - Pranesh Sathyanarayan
 ### Published First : 21 Oct 2026
-### AI agent disclosure - Deep Seek AI was used to generate content
+#### AI agent disclosure - Deep Seek AI was used to generate content. Author used AI assistance but used original ideas, spec, used detailed prompts and guided the AI agent
 
 #### "This work is dedicated to the public domain under CC0 1.0 Universal. You are free to copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission."
