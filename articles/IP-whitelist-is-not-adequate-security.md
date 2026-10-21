@@ -777,4 +777,4 @@ This is the lightest architectural change that addresses both the WAF block and 
 ### Published First : 21 Oct 2026
 ### AI agent disclosure - Deep Seek AI was used to generate content
 
-## "This work is dedicated to the public domain under CC0 1.0 Universal. You are free to copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission."
+#### "This work is dedicated to the public domain under CC0 1.0 Universal. You are free to copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission."
