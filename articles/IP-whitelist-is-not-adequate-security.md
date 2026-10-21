@@ -772,3 +772,7 @@ Using a Cloudflare Worker as your Freshdesk proxy gives you:
 - **No static IP to manage** — unless Freshdesk blocks Cloudflare ranges, in which case Enterprise Egress Policies or a Cloudflare Tunnel provide a static endpoint without a full VM.
 
 This is the lightest architectural change that addresses both the WAF block and the security requirements, without introducing the cost, latency, or operational burden of an AWS/Azure public-IP proxy.
+
+## Author - Pranesh Sathyanarayan
+### Published First : 21 Oct 2026
+### AI agent disclosure - Deep Seek AI was used to generate content
