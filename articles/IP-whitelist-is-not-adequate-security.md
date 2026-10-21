@@ -268,7 +268,7 @@ If Freshdesk's WAF is blocking entire AWS or Cloudflare IP ranges based on reput
 
 This design makes the header computationally infeasible to forge or guess. The remaining variable is whether Freshdesk's WAF can be configured to validate it instead of relying on source IP.
 
-If this solution is not feasible because the third-party service (E.g. Freshdesk) rejects your approach to allow your specific header to life the block and still insist they block on a IP-address block basis then scroll down to the alternate solution discussed later in this article.
+If this solution is not feasible because the third-party service (E.g. Freshdesk) rejects your approach to allow your specific header to lift the block and still insist they block on a IP-address block basis then scroll down to the alternate solution discussed later in this article.
 
 ### A note about attackers who can spoof IP addresses: Can they actually be successful and how successful can they be?
 
@@ -325,14 +325,6 @@ The HMAC/JWT headers mainly protect the **client → your proxy** leg and help w
 - **Therefore:** keep IP whitelisting only as an extra layer. Make your real authentication cryptographic — JWT for your app, server-side API key for Freshdesk, TLS everywhere, short expirations, and replay protection.
 
 If Freshdesk’s WAF still blocks Netlify’s egress IPs, you may eventually need a static egress IP from a serverless service like AWS Lambda + NAT Gateway (not a VM). But even then, keep the JWT/HMAC and API-key controls so that knowing or spoofing the IP doesn’t grant access.
-
-
-
-Debate on not using a static public IP solution:
-
-You’re right to push back on the AWS/Azure public-IP proxy. It adds cost, latency, another hop, and a stateful component you have to operate. IP whitelisting is a blunt instrument and should not be your primary security control.
-
-But there’s an important distinction to make before designing this:
 
 ## WAF blocking ≠ API authentication
 
