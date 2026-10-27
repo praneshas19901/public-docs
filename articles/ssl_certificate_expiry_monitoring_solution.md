@@ -51,7 +51,7 @@ TimerTriggerforSSLexpiry/
 This file contains the list of target domain names to inspect during each execution.
 
 #### Rules for Updating:
-* **Segregation:** Entries are organized by client name using `###` headers (e.g., `### LIXIL`).
+* **Segregation:** Entries are organized by client name using `###` headers (e.g., `### CLIENT1`).
 * **Commenting Out Entries:** Any line matching or starting with `^###` or `#` is ignored by the parser script.
 * **Adding New Sites:** Simply insert the raw domain or hostname on a new line without any `#` prefix.
 
