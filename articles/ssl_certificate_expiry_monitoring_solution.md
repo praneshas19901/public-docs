@@ -23,7 +23,7 @@ The monitoring is executed on a scheduled basis via a serverless **Azure Functio
 | :--- | :--- |
 | **Azure Subscription** | `Masked` |
 | **Resource Group** | `SSLCertificateMonitor` |
-| **Function App Name** | `hztlcertmonitor` |
+| **Function App Name** | `certmonitor` |
 | **Storage Account** | `sslcertificatemonitb84b` |
 | **Storage Share Quota** | 1 GB File Share |
 ---
