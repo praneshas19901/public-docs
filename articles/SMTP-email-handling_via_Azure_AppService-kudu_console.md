@@ -28,7 +28,7 @@ This method uses basic authentication with credentials retrieved directly from t
 
 ```xml
 <mailSettings>
-    <smtp from="noreply@horizontal.com">
+    <smtp from="noreply@masked.com">
         <network host="smtp.sendgrid.net" password="xxxxxxxxxx" userName="xxxxxxxxxxxxxxx" port="587" />
     </smtp>
 </mailSettings>
