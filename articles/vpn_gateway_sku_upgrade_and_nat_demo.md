@@ -1,3 +1,78 @@
+# 🚀 Azure VPN Gateway SKU Upgrade & Network Address Translation (NAT) Guide
+
+> **Document Type:** Proof of Concept (POC) & Technical Blueprint  
+> **Platform:** Microsoft Azure Infrastructure  
+> **Topics Covered:** Virtual Network Gateway, SKU Resizing, Network Address Translation (1:1 Static SNAT), IPsec S2S VPN  
+
+---
+
+## 📌 Executive Summary
+
+This document demonstrates the end-to-end technical procedure for **resizing an Azure Virtual Network Gateway SKU** and subsequently configuring **Static Network Address Translation (NAT) rules** over a Site-to-Site (S2S) IPsec VPN tunnel.
+
+In hybrid network topologies, overlapping IP address spaces or administrative constraints often prevent direct routing between cloud networks and on-premises environments. This guide illustrates a real-world scenario where an existing Azure VNET (`10.2.0.0/16`) conflicts with external routing requirements, requiring an in-flight SKU upgrade (from `VpnGw1AZ` to `VpnGw2AZ`) to unlock Azure's native NAT functionality and seamlessly translate outbound/inbound traffic to an alternative range (`10.4.0.0/16`).
+
+---
+
+## 🎯 Objectives & Key Takeaways
+
+1. **Gateway Upgrade & Resilience Monitoring:**
+   - Resize an active Azure Virtual Network Gateway (`VpnGw1AZ` $\rightarrow$ `VpnGw2AZ`).
+   - Evaluate network loss, downtime, and packet behavior during the gateway reconfiguration phase.
+
+2. **Overlapping IP Space Resolution via NAT:**
+   - Enable NAT features post-upgrade to prevent CIDR overlapping and routing collisions.
+   - Configure **Egress SNAT** (`10.2.0.0/16` $\rightarrow$ `10.4.0.0/16`) and **Ingress SNAT** (`10.4.0.0/16` $\rightarrow$ `10.2.0.0/16`).
+
+3. **Packet Analysis & Verification:**
+   - Validate 1:1 NAT mapping using ICMP ping tests and TCP port probing.
+   - Perform Wireshark packet inspection on the target remote endpoint to verify source translation.
+
+---
+
+## 🏗️ Reference Architecture Overview
+
+```
++-----------------------------------------------------------------------------------+
+|                                  AZURE VNET                                       |
+|                                                                                   |
+|   +-------------------+                     +---------------------------------+   |
+|   |   Test Workload   |  10.2.0.6           |  Azure Virtual Network Gateway  |   |
+|   |   (Azure VM)      | ------------------> |  Public IP: 20.246.194.32        |   |
+|   +-------------------+                     |  Primary Range: 10.2.0.0/16     |   |
++-------------------------------------------- |  NAT Range:     10.4.0.0/16     | --+
+                                              +---------------------------------+
+                                                               |
+                                                       IPsec S2S Tunnel
+                                                       (NAT Translation)
+                                                               |
+                                                               v
++-----------------------------------------------------------------------------------+
+|                               ON-PREMISES NETWORK                                 |
+|                                                                                   |
+|   +---------------------------------+       +---------------------------------+   |
+|   |  On-Prem Gateway / Router       |       |  On-Prem Target Workload        |   |
+|   |  Public IP: 20.127.165.29       | ----> |  Address: 10.0.0.4              |   |
+|   |  Subnet:    10.0.0.0/16         |       |  (Sees source as 10.4.0.6)      |   |
+|   +---------------------------------+       +---------------------------------+   |
++-----------------------------------------------------------------------------------+
+```
+
+---
+
+## 📋 Topology & Configuration Details
+
+| Component | Identifier / IP Address | Subnet / Address Space | Role / Description |
+| :--- | :--- | :--- | :--- |
+| **Azure VNET** | — | `10.2.0.0/16` | Main workload VNET hosting test resources |
+| **Azure Secondary Subnet** | — | `10.4.0.0/16` | Range designated for NAT translation |
+| **Azure VPN Gateway** | `20.246.194.32` | `VpnGw1AZ` $\rightarrow$ `VpnGw2AZ` | VNG performing IPsec encryption and NAT |
+| **Simulated On-Prem Gateway** | `20.127.165.29` | `10.0.0.0/16` | Windows RRAS Server handling S2S connection |
+| **Azure Testing VM** | `10.2.0.6` | `10.2.0.0/24` | Workload initiating outbound traffic |
+| **On-Prem Target VM** | `10.0.0.4` | `10.0.0.0/24` | Remote host receiving translated traffic |
+
+---
+
 # POC VPN Gateway SKU Upgrade & NAT
 
 ![Network Setup Diagram](./images-az-vpn-gw/page_1_image_1.png)
