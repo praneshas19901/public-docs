@@ -131,3 +131,10 @@ Send-EmailWithSendGrid -From $From -To $To -ApiKey $APIKEY -Body $Body -Subject 
 > 1. Go to **Azure Portal** $\rightarrow$ **SendGrid Accounts** $\rightarrow$ select your instance.
 > 2. Click **Manage** to open the SendGrid administrative portal.
 > 3. Go to **Settings** $\rightarrow$ **API Keys** to generate or retrieve an active key.
+
+
+## Author - Pranesh Sathyanarayan
+### Published First : 27 Oct 2026
+#### AI agent disclosure - no AI used to generate content, gemini AI was used only to perform markdown formatting and beautification.
+
+#### "This work is dedicated to the public domain under CC0 1.0 Universal. You are free to copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission."
