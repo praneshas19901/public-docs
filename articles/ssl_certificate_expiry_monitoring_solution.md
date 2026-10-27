@@ -104,8 +104,8 @@ Logs all operation details, connection timeouts, TLS handshake failures, or netw
 
 | Parameter | Current Value / Settings |
 | :--- | :--- |
-| **Recipient Email (`$To`)** | `dig-ms@horizontal.com` |
-| **Sender Email (`$From`)** | `noreply-sslcertalerts@sugmea.com` |
+| **Recipient Email (`$To`)** | `masked@masked.com` |
+| **Sender Email (`$From`)** | `no-reply@masked.com` |
 | **SendGrid API Key** | Loaded dynamically from App Settings: `$env:SENDGRID_API_KEY` |
 | **Expiration Warning Threshold** | 60 days (`$ExpirationDays = 60`) |
 | **TCP Timeout Limit** | 40 seconds (`$timeoutMs = 40000`) |
@@ -138,8 +138,8 @@ $timeoutMs      = 40000
 
 # 2. Fetch SendGrid API Key from Azure Function App Settings (Environment Variable)
 $APIKEY = $env:SENDGRID_API_KEY
-$From   = "noreply-sslcertalerts@sugmea.com"
-$To     = "dig-ms@horizontal.com"
+$From   = "no-reply@masked.com"
+$To     = "masked@masked.com"
 
 function Send-EmailWithSendGrid {
     param (
@@ -289,7 +289,7 @@ $footerhtml = @"
                                 <tr>
                                     <td width="4" style="background-color: #FFB900;"></td>
                                     <td style="padding: 12px 16px; font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; color: #323130; line-height: 1.4;">
-                                        <strong>Note:</strong> If no certificates appear above, there are no SSL/TLS certificates expiring within 60 days. Please verify target environments (e.g., Sitecore service connections) where thumbprints require manual updates upon rotation.
+                                        <strong>Note:</strong> If no certificates appear above, there are no SSL/TLS certificates expiring within 60 days.
                                     </td>
                                 </tr>
                             </table>
@@ -297,7 +297,7 @@ $footerhtml = @"
                             <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top: 1px solid #EDEBE9;">
                                 <tr>
                                     <td style="padding-top: 12px; font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; color: #A19F9D; text-align: center;">
-                                        Email and Certificate Monitoring Solution | Designed & Managed by <strong>Managed Services Infrastructure Team</strong>
+                                        Email and Certificate Monitoring Solution | Designed & Managed by <strong>Masked</strong>
                                     </td>
                                 </tr>
                             </table>
