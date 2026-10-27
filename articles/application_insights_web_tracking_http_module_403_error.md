@@ -91,3 +91,9 @@ To fix this issue, update `ApplicationInsights.config` to instruct the `Dependen
 
 * 🐙 **GitHub Issue Tracker:** [Azure SDK for .NET Issue #3460](https://github.com/Azure/azure-sdk-for-net/issues/3460)
 * ❓ **Microsoft Q&A Thread:** [App Insights Dependency Tracking Caused 403 Error Solution](https://docs.microsoft.com/en-us/answers/questions/77707/app-insights-dependency-tracking-caused-http-403-f.html)
+
+## Author - Pranesh Sathyanarayan
+### Published First : 27 Oct 2026
+#### AI agent disclosure - no AI used to generate content, gemini AI was used only to perform markdown formatting and beautification.
+
+#### "This work is dedicated to the public domain under CC0 1.0 Universal. You are free to copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission."
