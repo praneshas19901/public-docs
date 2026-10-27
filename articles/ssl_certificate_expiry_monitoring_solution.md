@@ -329,3 +329,8 @@ if ($APIKEY) {
 ```
 
 ---
+## Author - Pranesh Sathyanarayan
+### Published First : 27 Oct 2026
+#### AI agent disclosure - no AI used to generate content, gemini AI was used only to perform markdown formatting and beautification.
+
+#### "This work is dedicated to the public domain under CC0 1.0 Universal. You are free to copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission."
