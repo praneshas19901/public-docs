@@ -393,3 +393,9 @@ Return traffic is NATTed back to `10.2.0.6`:
 
 * **Forward Traffic:** Traffic originating from `10.2.0.0/16` inside the Azure VNET passes through the Azure Virtual Network Gateway NAT, translates into `10.4.0.0/16`, and traverses the IPsec tunnel to the On-prem Gateway.
 * **Return Traffic:** Return traffic directed to `10.4.0.0/16` traverses the IPsec tunnel, reaches the Azure Virtual Network Gateway NAT, and translates back to `10.2.0.0/16` before reaching the source VM.
+
+## Author - Pranesh Sathyanarayan
+### Published First : 27 Oct 2026
+#### AI agent disclosure - no AI used to generate content, gemini AI was used only to perform markdown formatting and beautification.
+
+#### "This work is dedicated to the public domain under CC0 1.0 Universal. You are free to copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission."
