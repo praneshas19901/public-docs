@@ -11,7 +11,7 @@ App Services (`cd0` and `cd1`) are failing to connect or upload files to Azure S
 | Resource Type | Resource Name |
 | :--- | :--- |
 | **Staging App Services** | `cd0`, `cd1` |
-| **Storage Account** | `webcanddoc` |
+| **Storage Account** | `masked` |
 | **Target Blob Container** | `webcanddoc/2020-hirecraft` |
 
 ---
@@ -30,11 +30,10 @@ The issue triggers when attempting to upload a file through the application inte
 
 ### Transaction Sequence
 
-1. **Initiating Request:** `POST` request to `https://stage.com/api/sitecore/candidateresumes/uploadfiles`
-2. **Target Destination:** `https://dwebcanddoc.blob.core.windows.net:443/2020-hirecraft?restype=container`
+1. **Initiating Request:** `POST` request to `https://masked/api/sitecore/candidateresumes/uploadfiles`
+2. **Target Destination:** `https://masked:443/2020-hirecraft?restype=container`
 3. **Result:** Request fails with `HTTP 403 Forbidden`.
 
-> 🔗 **Azure Portal Diagnostics:** [View App Insights Event Details](https://portal.azure.com/#blade/AppInsightsExtension/DetailsV2Blade/DataModel/%7B%22eventId%22%3A%22b651634a-e792-11ea-b4d5-77a3ea2f5cd5%22%2C%22timestamp%22%3A%222020-08-26T11%3A52%3A52.1261717Z%22%7D/ComponentId/%7B%22Name%22%3A%22hi-stageweb-ai%22%2C%22ResourceGroup%22%3A%22horizontalintegration-stage-rg%22%2C%22SubscriptionId%22%3A%227bcfdd65-8ce8-48dd-b7f3-24fd8c5ee598%22%7D)
 
 ---
 
