@@ -43,8 +43,8 @@ $User = "<enter_username_here>"
 $PWord = ConvertTo-SecureString -String "<enter_password_here>" -AsPlainText -Force
 $Credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $User, $PWord
 
-Send-MailMessage -To "your_email@horizontal.com" `
-                 -From "noreply@horizontal.com" `
+Send-MailMessage -To "your_email@masked.com" `
+                 -From "noreply@masked.com" `
                  -Subject "Testing mail func 01" `
                  -Body "Hello World" `
                  -Credential $Credential `
